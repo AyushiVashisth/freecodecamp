@@ -4,10 +4,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import {
-  GoogleLogin,
-  GoogleOAuthProvider
-} from "@react-oauth/google";
+import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
 import { useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
 
@@ -44,7 +41,7 @@ function Login({ isOpen, onRequestClose, setuserpic }) {
       if (formData.email && formData.password) {
         try {
           const response = await axios.post(
-            "http://localhost:8080/users/login",
+            "https://freecodecamp-gkj9.onrender.com/users/login",
             formData
           );
           const { message, success } = response.data;
@@ -70,7 +67,7 @@ function Login({ isOpen, onRequestClose, setuserpic }) {
       if (formData.name && formData.email && formData.password) {
         try {
           const response = await axios.post(
-            "http://localhost:8080/users/register",
+            "https://freecodecamp-gkj9.onrender.com/users/register",
             formData
           );
           const { message, success } = response.data;
@@ -169,7 +166,7 @@ function Login({ isOpen, onRequestClose, setuserpic }) {
           <div className="mt-4 text-center">
             {isSignIn ? (
               <div>
-                <GoogleOAuthProvider clientId="1703372067-2f2s5hsvhrb52s5rrrs8qdds2ggiijd5.apps.googleusercontent.com">
+                <GoogleOAuthProvider clientId="1703372067-fnl8l67jdq9si2542j498n5a0in7to1m.apps.googleusercontent.com">
                   <GoogleLogin
                     id="google-login-button"
                     onSuccess={(credentialResponse) => {

@@ -16,7 +16,7 @@ function Course() {
     if (!token) {
       navigate("/");
     }
-    const apiUrl = "http://localhost:8080/course";
+    const apiUrl = "https://freecodecamp-gkj9.onrender.com/course";
 
     axios
       .get(apiUrl)
