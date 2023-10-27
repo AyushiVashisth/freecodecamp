@@ -11,7 +11,9 @@ app.use(cors()); // Use CORS middleware for handling cross-origin requests
 
 // Define routes
 const userRouter = require("./routes/User.Route"); // Import user-related routes
+const courseRoutes = require("./routes/Course.Route"); // Import course routes
 app.use("/users", userRouter); // Use the user router for requests to /users route
+app.use("/course", courseRoutes); // Use the course router for requests to /course route
 
 // Define a simple root endpoint
 app.get("/", (req, res) => {
