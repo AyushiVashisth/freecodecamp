@@ -20,6 +20,12 @@ Create a web app using Node.js and MongoDB with a homepage featuring a "Sign In"
 </p>
 
 <p align="center">
+  <b>Backend</b><br>
+  <img src="https://img.shields.io/badge/expressjs-%777BB4.svg?style=for-the-badge&logo=express.js&logoColor=white" alt="express">
+  <img src="https://img.shields.io/badge/mongoose-%2300f.svg?style=for-the-badge&logo=mongoose&logoColor=white" alt="mongoose">
+</p>
+
+<p align="center">
   <b>Tools</b><br>
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github">
   <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
@@ -106,16 +112,14 @@ Create a web app using Node.js and MongoDB with a homepage featuring a "Sign In"
 
 
 ## Home
+![Screenshot 2023-10-28 140106](https://github.com/AyushiVashisth/freecodecamp/assets/107119119/28604474-2ab4-42ae-b534-fe852b81613d)
 
 ## Login
+![Screenshot 2023-10-28 140132](https://github.com/AyushiVashisth/freecodecamp/assets/107119119/125ffb41-94db-4ca4-a146-053c604d64ba)
+![Screenshot 2023-10-28 140147](https://github.com/AyushiVashisth/freecodecamp/assets/107119119/39e418e7-b4f5-4bcb-a65c-faaaf5cfc550)
 
 ## Course
-
-<div >
-  <img width="46%" src="https://github.com/AyushiVashisth/voice2textapp/assets/107119119/40e31cd0-ad0b-4180-a94c-af49757dc7f8" alt="react">
-  <img width="46%" src="https://github.com/AyushiVashisth/voice2textapp/assets/107119119/efc5ac17-ab64-4f57-9086-583aada0f468" alt="tailwindcss">
-</div>
-
+![Screenshot 2023-10-28 143009](https://github.com/AyushiVashisth/freecodecamp/assets/107119119/6f80b53a-8185-48a5-8c2e-681a2d519deb)
 
 <h2 align="center">Key Features</h2>
 
